@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <script  src="scripts/movies.js" type="text/javascript"></script>
+    <script defer src="scripts/script.js" type="text/javascript"></script>
+    <title>Film Finder</title>
+</head>
+<body>
+    <h1> Film Finder</h1>
+    <nav>
+        <span> 
+        <input type="radio" name="movie-filter" value="latest" id="new-movies">
+        <label for="latest">Latest movies, 2014 or newer</label>
+        </span>
+        <span> 
+        <input type="radio" name="movie-filter" value="avenger" id="avenger-movies"> 
+        <label for="avenger">Avenger movies</label>
+         </span>
+        <span>
+        <input type="radio" name="movie-filter" value="x-men" id="x-men-movies"> 
+        <label for="x-men">X-Men movies</label>
+         </span>
+        <span> 
+        <input type="radio" name="movie-filter" value="princess" id="princess-movies"> 
+        <label for="princess">Princess movies</label>
+        </span>
+        <span>
+        <input type="radio" name="movie-filter" value="batman" id="batman-movies"> 
+        <label for="batman">Batman movies</label> 
+        </span> 
+        <!--<span> 
+            <input type="text" id="text-finder" placeholder="search for movie"  >
+        </span>-->      
+    </nav>
+    <main>
+        <ul id="movieBlock">
+             
+        </ul>
+    </main>
+</body>
+</html>
